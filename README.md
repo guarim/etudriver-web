@@ -5,7 +5,7 @@ The JavaScript library to support eye-tracking on web pages. It communicates wit
 
 ## Features
 
-- streams gaze data from `ETU-Driver` into a web-page (see [the 'camera' and 'heatmap' examples] (https://github.com/lexasss/etudriver-web/tree/master/examples))
+- streams gaze data from `ETU-Driver` into a web-page (see [the 'camera' and 'heatmap' examples] (https://github.com/guarim/etudriver-web/tree/master/examples))
 - fires an event when the tracking or other `ETU-Driver` state changes
 - contains methods to send commands to `ETU-Driver` to show options window, calibrate, and toggle gaze tracking
 - embeds a panel with buttons to send these commands
@@ -18,17 +18,17 @@ The JavaScript library to support eye-tracking on web pages. It communicates wit
 - allows to calibrate a custom head gesture
 - uses dwell time (naive or cumulative), nodding or custom head gestures for target selection
 - displays a progress of dwell time
-- allows defining few categories of targets, each with its own method of selection and visual feedback for mapping and selection events (see [the 'targets' example] (https://github.com/lexasss/etudriver-web/tree/master/examples/targets.html))
+- allows defining few categories of targets, each with its own method of selection and visual feedback for mapping and selection events (see [the 'targets' example] (https://github.com/guarim/etudriver-web/tree/master/examples/targets.html))
 - allows page scrolling using 1) dedicated transparent panels to fixate on, 2) head movements (see [the 'scroller' example] (https://github.com/lexasss/etudriver-web/tree/master/examples/scroller.html))
-- contains a keyboard to display when a used selects a target of a certain category (see [the 'keyboard' example] (https://github.com/lexasss/etudriver-web/tree/master/examples))
-- allows defining custom keyboards; on a key selection, a custom scenario can be executed, this making keyboards very flexible that can be used not only for text input  (see [the 'keyboardSC' example] (https://github.com/lexasss/etudriver-web/tree/master/examples))
+- contains a keyboard to display when a used selects a target of a certain category (see [the 'keyboard' example] (https://github.com/guarim//etudriver-web/tree/master/examples))
+- allows defining custom keyboards; on a key selection, a custom scenario can be executed, this making keyboards very flexible that can be used not only for text input  (see [the 'keyboardSC' example] (https://github.com/guarim/etudriver-web/tree/master/examples))
 - calibration verification procedure; custom target presentation is allowed
 
 ## Usage
 
-See [examples] (https://github.com/lexasss/etudriver-web/tree/master/examples) to get ideas of how and for what the library can be used. See [comments] (https://github.com/lexasss/etudriver-web/blob/master/js/main.js) in the JS file for the feature-by-feature explanation of the `etudriver` configuration
+See [examples] (https://github.com/guarim/etudriver-web/tree/master/examples) to get ideas of how and for what the library can be used. See [comments] (https://github.com/guarim/etudriver-web/blob/master/js/main.js) in the JS file for the feature-by-feature explanation of the `etudriver` configuration
 
-In HTML, include only the `etudriver-[version].js` or `etudriver-[version].min.js` file, the CSS file will be loaded automatically. The library exports `etudriver` variable. Initialize this variable when the page DOM is loaded (`DOMContentLoaded`). The basic code is shown in [this] (https://github.com/lexasss/etudriver-web/blob/master/examples/simplest.html) example.
+In HTML, include only the `etudriver-[version].js` or `etudriver-[version].min.js` file, the CSS file will be loaded automatically. The library exports `etudriver` variable. Initialize this variable when the page DOM is loaded (`DOMContentLoaded`). The basic code is shown in [this] (https://github.com/guarim/etudriver-web/blob/master/examples/simplest.html) example.
 
 ### Methods
 
@@ -43,7 +43,7 @@ In HTML, include only the `etudriver-[version].js` or `etudriver-[version].min.j
 
 ### Settings
 
-to appear; meanwhile, see the [js/main.js](https://github.com/lexasss/etudriver-web/blob/master/js/main.js).
+to appear; meanwhile, see the [js/main.js](https://github.com/guarim/etudriver-web/blob/master/js/main.js).
 
 ### Callbacks
 
